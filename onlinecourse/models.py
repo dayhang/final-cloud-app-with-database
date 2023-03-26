@@ -41,7 +41,7 @@ class Learner(models.Model):
     ]
     occupation = models.CharField(
         null=False,
-        max_length=20,
+        max_length=21,
         choices=OCCUPATION_CHOICES,
         default=STUDENT
     )
