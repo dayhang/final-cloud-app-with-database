@@ -2,7 +2,7 @@ from django.contrib import admin
 # Import any new Models here
 from .models import Course, Lesson, Instructor, Learner, Question, Choice
 
-# Register QuestionInline and ChoiceInline classes here
+# Register QuestionInline and ChoiceInline classes
 class ChoiceInline(admin.StackedInline):
     model = Choice
     extra = 3
